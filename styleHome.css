@@ -1,0 +1,77 @@
+.estiloLetra {
+    font-family: 'Monoton', sans-serif;
+}
+
+header{
+    background: rgb(0,121,167);
+    background: linear-gradient(274deg, rgba(0,121,167,1) 35%, rgba(92,225,230,1) 100%);
+    color: #000;
+    font-size: 60px;
+}
+
+.Inicio{
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.inicio-rayitas{
+    width: 40px;
+    position: absolute;
+    right: 20px;
+    padding: 30px 0px 30px 0;
+}
+
+.somosMusica-fondo{
+    background-color: #000;
+}
+
+.somosMusica{
+    background-image: url(git-fondo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
+    background-size: 480px;
+}
+
+.nombre{
+    color: #fff;
+    font-size: 150px;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 10px 10px rgba(240, 235, 235, 0.349);
+}
+
+.generos{
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    line-height: 400px;
+    color: #fff;
+}
+
+li:hover{
+    font-size: 120px;
+    transition-duration:2s ;
+
+}
+
+.cumbias{
+    background-image: url(cumbias.png);
+    background-position: center;
+}
+
+.pop{
+    background-image: url(Pop.png);
+}
+
+.electronica{
+    background-image: url(Electronica.png);
+    background-position: center;
+
+}
+
+.ochentas{
+    background-image: url(ochentas.png);
+    background-size: 1000px;
+    background-position: 70px;
+}
